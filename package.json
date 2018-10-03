@@ -1,7 +1,12 @@
 {
   "name": "react-cordova-tachyons",
-  "version": "0.1.0",
+  "displayName": "ReactCordovaTachyons",
+  "version": "1.0.0",
   "private": true,
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "author": "jraleman",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
