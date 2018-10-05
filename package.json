@@ -21,7 +21,8 @@
     "tachyons": "^4.11.1"
   },
   "devDependencies": {
-    "snazzy": "^8.0.0"
+    "snazzy": "^8.0.0",
+    "standardx": "^3.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
