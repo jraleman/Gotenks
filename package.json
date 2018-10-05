@@ -21,6 +21,7 @@
     "tachyons": "^4.11.1"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "jsdoc": "^3.5.5",
     "snazzy": "^8.0.0",
     "standardx": "^3.0.1"
