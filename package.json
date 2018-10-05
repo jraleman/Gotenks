@@ -19,6 +19,7 @@
     "doc": "./node_modules/.bin/jsdoc --verbose -r ./src || true"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "jsonwebtoken": "^8.3.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
