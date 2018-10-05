@@ -20,6 +20,9 @@
     "react-scripts": "2.0.3",
     "tachyons": "^4.11.1"
   },
+  "devDependencies": {
+    "snazzy": "^8.0.0"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
