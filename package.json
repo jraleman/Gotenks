@@ -12,7 +12,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build && cp -a ./build/* ./www",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "node ./node_modules/standardx/bin/cmd.js --verbose './src/**/*.js' | node ./node_modules/snazzy/bin/cmd.js || true",
+    "lint-fix": "node ./node_modules/standardx/bin/cmd.js --parser babel-eslint --fix --verbose './src/**/*.js' | node ./node_modules/snazzy/bin/cmd.js || true",
+    "lint-log": "npm run lint > lint.log"
   },
   "dependencies": {
     "react": "^16.5.2",
