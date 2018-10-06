@@ -9,6 +9,8 @@
   "license": "MIT",
   "homepage": "./www",
   "scripts": {
+    "prestart": "npm run tachyons",
+    "prebuild": "npm run tachyons",
     "start": "react-scripts start",
     "build": "react-scripts build && cp -a ./build/* ./www",
     "test": "react-scripts test",
