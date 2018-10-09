@@ -27,13 +27,13 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.3",
-    "tachyons": "^4.11.1",
-    "tachyons-cli": "^1.3.2"
+    "tachyons": "^4.11.1"
   },
   "devDependencies": {
     "jest": "^23.6.0",
     "jsdoc": "^3.5.5",
     "snazzy": "^8.0.0",
-    "standardx": "^3.0.1"
+    "standardx": "^3.0.1",
+    "tachyons-cli": "^1.3.2"
   }
 }
