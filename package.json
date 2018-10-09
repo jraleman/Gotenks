@@ -19,7 +19,7 @@
     "lint-fix": "node ./node_modules/standardx/bin/cmd.js --parser babel-eslint --fix --verbose './src/**/*.js' | node ./node_modules/snazzy/bin/cmd.js || true",
     "lint-log": "npm run lint > lint.log",
     "doc": "./node_modules/.bin/jsdoc --verbose -r ./src || true",
-    "tachyons": "node ./node_modules/tachyons-build-css/index.js ./src/themes/tachyons/tachyons.css > ./src/themes/index.css"
+    "tachyons": "node ./node_modules/tachyons-cli/cli.js ./src/themes/tachyons/tachyons.css > ./src/themes/index.css"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -35,11 +35,5 @@
     "jsdoc": "^3.5.5",
     "snazzy": "^8.0.0",
     "standardx": "^3.0.1"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
