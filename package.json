@@ -22,7 +22,7 @@
     "tachyons": "node ./node_modules/tachyons-cli/cli.js ./src/themes/tachyons/tachyons.css > ./src/themes/index.css"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "jsonwebtoken": "^8.3.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
